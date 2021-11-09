@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: rgb(8, 59, 76);
+}
+
+.title, #box-container {
+    width: 80%;
+    margin:auto;
+}
