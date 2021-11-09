@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
@@ -11,4 +12,50 @@
 .title, #box-container {
     width: 80%;
     margin:auto;
+    padding: 20px;
+}
+
+.title h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+#box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.box-normal {
+    background-color:rgb(19, 137, 178);
+}
+
+.box-fizz {
+    background-color: rgb(11, 214, 161);
+}
+
+.box-buzz {
+    background-color: rgb(255, 209, 102);
+}
+
+.box-fizzbuzz {
+    background-color: rgb(240, 70, 111);
+}
+
+@media screen and (max-width: 768px) {
+
+    .title h1{
+        font-size: 60px;
+    }
+    
 }
